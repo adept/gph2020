@@ -45,7 +45,7 @@ constraint r[26]=1 /\ c[26]=4; % +5
 constraint r[33]=4 /\ c[33]=2; % +6
 
 
-solve :: int_search(r, input_order, indomain_random) satisfy;
+solve :: int_search(r, input_order, indomain_split) satisfy;
 %solve satisfy;
 
 output [
