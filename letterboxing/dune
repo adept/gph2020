@@ -1,0 +1,6 @@
+(executable
+ (name letterboxing)
+ (libraries
+  core
+  )
+ (preprocess (pps ppx_jane)))

@@ -1,0 +1,41 @@
+Running left.mzn
+HOUSES
+P(E) P(A) Nobody P(F) 
+Nobody Nobody P(C) Nobody 
+Nobody Nobody Nobody Nobody 
+P(D) Nobody P(B) P(G) 
+COLORS
+C(Red) C(Purple) Nothing C(Gray) 
+Nothing Nothing C(Yellow) Nothing 
+Nothing Nothing Nothing Nothing 
+C(Green) Nothing C(Blue) C(Orange) 
+GIFTS
+A->G(Compas) B->G(Palette) C->NoGift D->G(Phonebook) E->NoGift F->G(Binoculars) G->NoGift 
+COMPASS
+North->South South->North East->West West->East 
+PALETTE
+Blue->Orange Yellow->Purple Green->Red 
+PHONEBOOK
+G->A B->F A->G E->C 
+----------
+HOUSES
+P(E) P(A) Nobody P(F) 
+Nobody Nobody P(C) Nobody 
+Nobody Nobody Nobody Nobody 
+P(D) Nobody P(B) P(G) 
+COLORS
+C(Red) C(Purple) Nothing C(Blue) 
+Nothing Nothing C(Yellow) Nothing 
+Nothing Nothing Nothing Nothing 
+C(Green) Nothing C(Gray) C(Orange) 
+GIFTS
+A->G(Compas) B->G(Palette) C->NoGift D->G(Phonebook) E->NoGift F->G(Binoculars) G->NoGift 
+COMPASS
+North->South South->North East->West West->East 
+PALETTE
+Blue->Orange Yellow->Purple Green->Red 
+PHONEBOOK
+G->A B->F A->G E->C 
+----------
+==========
+Finished in 394msec

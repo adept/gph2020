@@ -1,0 +1,117 @@
+Running model.mzn
+HOUSES
+P(K) Nobody P(I) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->NoGift J->NoGift K->G(Phonebook) L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->West East->North West->East 
+PALETTE
+Orange->Red Gray->Yellow Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->K H->N N->H 
+----------
+HOUSES
+P(K) Nobody P(I) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->NoGift J->NoGift K->G(Phonebook) L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->North East->West West->East 
+PALETTE
+Orange->Red Gray->Yellow Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->K H->N N->H 
+----------
+HOUSES
+P(K) Nobody P(I) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->NoGift J->NoGift K->G(Phonebook) L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->West East->North West->East 
+PALETTE
+Orange->Blue Gray->Gray Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->K H->N N->H 
+----------
+HOUSES
+P(K) Nobody P(I) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->NoGift J->NoGift K->G(Phonebook) L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->North East->West West->East 
+PALETTE
+Orange->Blue Gray->Gray Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->K H->N N->H 
+----------
+HOUSES
+P(I) Nobody P(K) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->G(Phonebook) J->NoGift K->NoGift L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->West East->North West->East 
+PALETTE
+Orange->Red Gray->Yellow Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->I H->N N->H 
+----------
+HOUSES
+P(I) Nobody P(K) Nobody 
+Nobody Nobody Nobody P(J) 
+Nobody P(H) Nobody Nobody 
+P(M) Nobody P(N) P(L) 
+COLORS
+C(Red) Nothing C(Purple) Nothing 
+Nothing Nothing Nothing C(Blue) 
+Nothing C(Green) Nothing Nothing 
+C(Yellow) Nothing C(Orange) C(Gray) 
+GIFTS
+H->NoGift I->G(Phonebook) J->NoGift K->NoGift L->G(Palette) M->G(Binoculars) N->G(Compas) 
+COMPASS
+North->South South->West East->North West->East 
+PALETTE
+Orange->Blue Gray->Gray Blue->Orange Red->Green 
+PHONEBOOK
+I->M J->L K->I H->N N->H 
+----------
+==========
+Finished in 501msec

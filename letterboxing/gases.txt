@@ -1,0 +1,7 @@
+helium
+neon
+argon
+krypton
+xenon
+radon
+oganesson

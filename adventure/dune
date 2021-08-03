@@ -1,0 +1,6 @@
+(executable
+ (name adventure)
+ (libraries
+  core
+  )
+ (preprocess (pps ppx_jane)))
